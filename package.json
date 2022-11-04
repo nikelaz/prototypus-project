@@ -1,0 +1,17 @@
+{
+  "name": "@nikelaz/prototypus-project",
+  "version": "1.0.0",
+  "description": "Local Web Development Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"stylus -w ./src/style.styl -o ./src/style.css\" \"serve ./src\""
+  },
+  "author": "Nikola Lazarov",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "7.5.0",
+    "normalize-stylus": "1.0.1",
+    "serve": "14.0.1",
+    "stylus": "0.59.0"
+  }
+}
